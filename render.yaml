@@ -1,0 +1,14 @@
+# render.yaml
+# This file defines the infrastructure for your application on Render.
+
+services:
+  - type: web
+    name: credit-risk-api
+    env: python
+    plan: free
+    # Explicitly set the Python version to 3.11 for stability
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
