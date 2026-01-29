@@ -1,12 +1,12 @@
 # Credit Risk Prediction Model
 
-A machine learning solution for predicting credit risk using a Decision Tree classifier. This repository contains a trained model, preprocessing pipeline, and a FastAPI backend for real-time predictions.
+A machine learning solution for predicting credit risk using Models. This repository contains a trained models, preprocessing pipeline, and a FastAPI backend for real-time predictions.
 
 ## Overview
 
 **Model Purpose**: Binary classification to predict credit risk (TARGET: 0 = Low Risk, 1 = High Risk)
 
-**Model Type**: Decision Tree Classifier-CatBoost-AdaBoost
+**Model Type**: DecisionTreeClassifier-CatBoost-AdaBoost
 
 **Training Data**: Home Credit-style dataset with applicant/employee attributes
 
